@@ -1,0 +1,15 @@
+VITE_SUPABASE_URL=https://dxlpygmvkgsdpjhzeqso.supabase.co
+VITE_SUPABASE_PUBLISHABLE_KEY=sb_publishable_5BhPdP3RR-flaQnJ0tHDUw_hboqazNp
+
+VITE_EMAILJS_SERVICE_ID=service_svw562h
+VITE_EMAILJS_PUBLIC_KEY=ZAVZJUcl_O9sey-Da
+VITE_EMAILJS_PRIVATE_KEY=xAS7B_ivj-aMx_qfPA6uo
+
+VITE_EMAILJS_TEMPLATE_ID=template_dmuhb44
+VITE_EMAILJS_TEMPLATE_DEPOSIT_ID=template_k27navk
+VITE_EMAILJS_TEMPLATE_WIN_ID=template_k27navk
+
+# Web Push Notifications
+VITE_VAPID_PUBLIC_KEY=BM36Bc3QYiSWyTagCw6rqP69oNh9-cHZIpBq7fV344NtC1IAjUdWLpeWQ80ZPjzkIMPbm7kBeayeB3ADV6SAi-I
+VAPID_PRIVATE_KEY=dgo7WVrK66kRdboiNfmOGfnfpthQMkvfqxAryjSohms
+VAPID_SUBJECT=mailto:admin@nexusoption.com

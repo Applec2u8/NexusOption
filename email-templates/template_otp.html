@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="color-scheme" content="light dark" />
+  <meta name="supported-color-schemes" content="light dark" />
+  <title>{{email_subject}}</title>
+  <style>
+    @media (prefers-color-scheme: dark) {
+      .card-body { background-color: #1e293b !important; }
+      .name-text { color: #f1f5f9 !important; }
+      .body-text { color: #94a3b8 !important; }
+      .otp-wrap  { background-color: #172033 !important; border-color: #3b82f6 !important; }
+      .otp-lbl   { color: #60a5fa !important; }
+      .otp-code  { color: #ffffff !important; }
+      .info-wrap { background-color: #172033 !important; border-left-color: #3b82f6 !important; }
+      .info-text { color: #94a3b8 !important; }
+      .info-time { color: #e2e8f0 !important; }
+      .warn-wrap { background-color: #1c1a14 !important; border-left-color: #f59e0b !important; }
+      .warn-text { color: #d97706 !important; }
+      .foot-bg   { background-color: transparent !important; border-top-color: #1e293b !important; }
+    }
+  </style>
+</head>
+<body style="margin:0;padding:0;font-family:Arial,sans-serif;">
+  <div align="center" style="padding:40px 10px;">
+    <table width="100%" cellpadding="0" cellspacing="0" border="0" style="max-width:440px;border-radius:18px;overflow:hidden;border:1px solid #e2e8f0;box-shadow:0 10px 30px rgba(0,0,0,0.05);">
+
+      <!-- Header -->
+      <tr>
+        <td bgcolor="#1e3a5f" style="background-color:#1e3a5f;padding:24px 28px 20px;text-align:center;">
+          <p style="margin:0 0 4px;font-size:10px;font-weight:700;letter-spacing:4px;color:#60a5fa;text-transform:uppercase;">
+            Nexus Option
+          </p>
+          <h1 style="margin:0;font-size:22px;font-weight:900;color:#ffffff;line-height:1.25;">
+            {{email_title}}
+          </h1>
+          <p style="margin:5px 0 0;font-size:12px;color:#94a3b8;">
+            {{email_subject}}
+          </p>
+        </td>
+      </tr>
+
+      <!-- Body -->
+      <tr>
+        <td class="card-body" bgcolor="#ffffff" style="background-color:#ffffff;padding:24px 24px 20px;">
+          <p class="body-text" style="margin:0 0 2px;font-size:12px;color:#64748b;">
+            {{email_greeting}},
+          </p>
+          <p class="name-text" style="margin:0 0 14px;font-size:16px;font-weight:700;color:#0f172a;">
+            {{to_name}}
+          </p>
+          <p class="body-text" style="margin:0 0 18px;font-size:13px;color:#64748b;line-height:1.65;">
+            {{email_body}}
+          </p>
+
+          <!-- OTP Code Box -->
+          <table class="otp-wrap" width="100%" cellpadding="0" cellspacing="0" border="0" style="margin:0 0 16px;background-color:#eff6ff;border-radius:14px;border:2px solid #3b82f6;">
+            <tr>
+              <td style="padding:20px 16px;text-align:center;">
+                <p class="otp-lbl" style="margin:0 0 6px;font-size:10px;font-weight:700;letter-spacing:3px;color:#2563eb;text-transform:uppercase;">
+                  {{email_otp_label}}
+                </p>
+                <p class="otp-code" style="margin:0;font-family:'Courier New',monospace;font-size:38px;font-weight:900;color:#1e3a5f;letter-spacing:10px;">
+                  {{passcode}}
+                </p>
+              </td>
+            </tr>
+          </table>
+
+          <!-- Expiry row -->
+          <table class="info-wrap" width="100%" cellpadding="0" cellspacing="0" border="0" style="margin:0 0 12px;background-color:#f1f5f9;border-radius:10px;border-left:3px solid #3b82f6;">
+            <tr>
+              <td style="padding:11px 14px;">
+                <p class="info-text" style="margin:0;font-size:12px;color:#64748b;">
+                  ⏱ {{email_expiry}}
+                  <strong class="info-time" style="color:#0f172a;"> {{time}}</strong>
+                </p>
+              </td>
+            </tr>
+          </table>
+
+          <!-- Warning -->
+          <table class="warn-wrap" width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:#fffbeb;border-radius:10px;border-left:3px solid #f59e0b;">
+            <tr>
+              <td style="padding:11px 14px;">
+                <p class="warn-text" style="margin:0;font-size:12px;color:#92400e;">
+                  ⚠️ {{email_warning}}
+                </p>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+
+      <!-- Footer -->
+      <tr>
+        <td class="foot-bg" bgcolor="#f8fafc" style="background-color:#f8fafc;padding:14px 24px;text-align:center;border-top:1px solid #e2e8f0;">
+          <p style="margin:0;font-size:11px;color:#64748b;">{{email_footer_brand}}</p>
+          <p style="margin:5px 0 0;font-size:10px;color:#94a3b8;">{{email_footer_auto}}</p>
+        </td>
+      </tr>
+
+    </table>
+  </div>
+</body>
+</html>

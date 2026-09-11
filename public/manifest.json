@@ -1,0 +1,37 @@
+{
+  "short_name": "Nexus Option",
+  "name": "Nexus Option Trading",
+  "icons": [
+    {
+      "src": "/logo.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/logo.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#0f172a",
+  "display": "standalone",
+  "theme_color": "#0f172a",
+  "description": "Premium Binary Options Trading Platform",
+  "shortcuts": [
+    {
+      "name": "Trade Now",
+      "short_name": "Trade",
+      "description": "Open the trading panel",
+      "url": "/trade",
+      "icons": [{ "src": "/logo.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Wallet",
+      "short_name": "Wallet",
+      "description": "Check your balance and deposit",
+      "url": "/wallet",
+      "icons": [{ "src": "/logo.png", "sizes": "192x192" }]
+    }
+  ]
+}

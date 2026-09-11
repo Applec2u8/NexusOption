@@ -1,0 +1,21 @@
+{
+  "ignore": [
+    "*.log",
+    "*.env",
+    "coverage/",
+    "build/",
+    "dist/",
+    ".cache/",
+    "*.test.ts",
+    "__tests__/",
+    ".gitignore",
+    ".git/",
+    "src/__pycache__/",
+    ".venv/",
+    "node_modules/",
+    ".next/",
+    ".svelte-kit/",
+    "target/",
+    "installer_output"
+  ]
+}

@@ -1,0 +1,18 @@
+export const assets = [
+  { id: 1, name: "Gold", symbol: "GOLD", price: 2315.4, change: 1.2, iconUrl: "https://img.icons8.com/color/96/gold-bars.png" },
+  { id: 2, name: "Bitcoin", symbol: "BTC", price: 65420.0, change: -0.5, iconUrl: "https://raw.githubusercontent.com/spothq/cryptocurrency-icons/master/128/color/btc.png" },
+  { id: 3, name: "Ethereum", symbol: "ETH", price: 3450.25, change: 2.1, iconUrl: "https://raw.githubusercontent.com/spothq/cryptocurrency-icons/master/128/color/eth.png" },
+  { id: 4, name: "Tether", symbol: "USDT", price: 1.0, change: 0.01, iconUrl: "https://raw.githubusercontent.com/spothq/cryptocurrency-icons/master/128/color/usdt.png" },
+  { id: 5, name: "BNB", symbol: "BNB", price: 580.45, change: 0.8, iconUrl: "https://raw.githubusercontent.com/spothq/cryptocurrency-icons/master/128/color/bnb.png" },
+  { id: 6, name: "Solana", symbol: "SOL", price: 145.2, change: 5.4, iconUrl: "https://raw.githubusercontent.com/spothq/cryptocurrency-icons/master/128/color/sol.png" },
+  { id: 7, name: "Dogecoin", symbol: "DOGE", price: 0.18, change: -2.3, iconUrl: "https://raw.githubusercontent.com/spothq/cryptocurrency-icons/master/128/color/doge.png" },
+  { id: 8, name: "NVIDIA", symbol: "NVDA", price: 890.5, change: 3.2, iconUrl: "https://financialmodelingprep.com/image-stock/NVDA.png" },
+  { id: 9, name: "Apple Inc", symbol: "AAPL", price: 175.4, change: -0.8, iconUrl: "https://financialmodelingprep.com/image-stock/AAPL.png" },
+  { id: 10, name: "Tesla", symbol: "TSLA", price: 180.2, change: -1.5, iconUrl: "https://financialmodelingprep.com/image-stock/TSLA.png" },
+  { id: 11, name: "Netflix", symbol: "NFLX", price: 620.1, change: 1.1, iconUrl: "https://financialmodelingprep.com/image-stock/NFLX.png" },
+  { id: 12, name: "Amazon", symbol: "AMZN", price: 185.3, change: 0.5, iconUrl: "https://financialmodelingprep.com/image-stock/AMZN.png" },
+  { id: 13, name: "Google", symbol: "GOOGL", price: 145.3, change: 1.5, iconUrl: "https://financialmodelingprep.com/image-stock/GOOGL.png" },
+  { id: 14, name: "Meta Platforms", symbol: "META", price: 485.3, change: 2.1, iconUrl: "https://financialmodelingprep.com/image-stock/META.png" },
+  { id: 15, name: "Microsoft Corp", symbol: "MSFT", price: 415.3, change: 0.8, iconUrl: "https://financialmodelingprep.com/image-stock/MSFT.png" },
+  { id: 16, name: "Instacart", symbol: "CART", price: 32.45, change: 0.0, iconUrl: "https://financialmodelingprep.com/image-stock/CART.png" },
+];
